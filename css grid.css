@@ -1,0 +1,44 @@
+*{
+	margin: 0; padding: 0;
+}
+
+main{
+	width: 90%;
+	margin: 50px auto;
+	border: 10px solid black;
+	color: black;
+	display: grid;
+	grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px; 
+	grid-template-columns: 150px 1fr 250px 1fr 1fr 1fr ;
+	text-align: center;
+
+	}
+
+.div1{ background: white; border: 1px solid black;}
+.div2{ background: white; border: 1px solid black; padding-top: 15px;}
+.div3{ background: white; border: 1px solid black; padding-top: 15px;}
+.div4{ background: white; border: 1px solid black; padding-top: 15px;}
+.div5{ background: white; border: 1px solid black; padding-top: 15px;}
+.div6{ background: white; border: 1px solid black; padding-top: 15px;}
+.div7{ background: white; border: 1px solid black; padding-top: 15px;}
+.div8{ background: orange; border: 1px solid black; grid-row: 2/4; grid-column: 2/3; padding-top: 40px;}
+.div9{ background: gray; border: 1px solid black; grid-row: 3/5; grid-column: 3/4; padding-top: 40px;}
+.div10{ background: white; border: 1px solid black;}
+.div11{ background: orange;  border: 1px solid black; grid-row: 2/4; grid-column: 4/5; padding-top: 40px;}
+.div12{ background: orange;  border: 1px solid black; grid-row: 2/10; grid-column: 5/6; padding-top: 170px;}
+.div13{ background: orange; border: 1px solid black; grid-row: 2/4; grid-column: 6/7; padding-top: 40px;}
+.div14{ background: white; border: 1px solid black; padding-top: 15px;}
+.div15{ background: white; border: 1px solid black; padding-top: 15px;}
+.div16{ background: green; border: 1px solid black; grid-row: 4/7; grid-column: 2/3; padding-top: 60px;}
+.div17{ background: green; border: 1px solid black; grid-row: 4/7; grid-column: 4/5; padding-top: 60px;}
+.div18{ background: green; border: 1px solid black; grid-row: 4/7; grid-column: 6/7; padding-top: 60px;}
+.div19{ background: white; border: 1px solid black;padding-top: 15px;}
+.div20{ background: white; border: 1px solid black;}
+.div21{ background: white; border: 1px solid black; padding-top: 15px;}
+.div22{ background: white; border: 1px solid black; padding-top: 15px;}
+.div23{ background: white; border: 1px solid black; padding-top: 15px;}
+.div24{ background: white; border: 1px solid black; padding-top: 15px;}
+.div25{ background: pink; border: 1px solid black; grid-row: 7/10; grid-column: 2/3; padding-top: 65px;}
+.div26{ background: gray; border: 1px solid black; grid-row:6/9; grid-column: 3/4; padding-top: 65px;}
+.div27{ background: pink; border: 1px solid black; grid-row: 7/10; grid-column: 4/5; padding-top: 65px;}
+.div28{ background: pink; border: 1px solid black; grid-row: 7/10; grid-column: 6/7; padding-top: 65px;}
